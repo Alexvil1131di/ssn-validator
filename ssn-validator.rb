@@ -59,9 +59,13 @@ def ssnValidation(ssn)
         return false
     end
 
+    #return the analized and separated section of the ssn 
+
+    puts "valid ssn"
+    return [ssn1,ssn2,ssn3]
 
 
 end
 
 ssn = gets.chomp
-ssnValidation(ssn)
+puts ssnValidation(ssn)
